@@ -1,0 +1,728 @@
+<!DOCTYPE html><html class="scroll-smooth" lang="es"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+<title>DORADOS FC | Más que un equipo, una familia</title>
+<!-- Google Fonts: Oswald for high-impact athletic titles & Inter for body text -->
+<link href="https://fonts.googleapis.com" rel="preconnect">
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;family=Inter:wght@300;400;500;600;700;800&amp;family=Oswald:wght@500;600;700&amp;display=swap" rel="stylesheet">
+<!-- Tailwind CSS v3 CDN with forms and container queries -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Tailwind Custom Configuration -->
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            dorado: {
+              300: '#FDE047',
+              400: '#FACC15',
+              500: '#D4AF37',
+              600: '#B8860B',
+              700: '#8C6708',
+            },
+            carbon: {
+              800: '#18181B',
+              900: '#0F0F12',
+              950: '#08080A',
+            }
+          },
+          fontFamily: {
+            impact: ['"Bebas Neue"', '"Oswald"', 'sans-serif'],
+            display: ['"Oswald"', 'sans-serif'],
+            sans: ['"Inter"', 'sans-serif']
+          },
+          boxShadow: {
+            'gold-glow': '0 0 25px -4px rgba(212, 175, 55, 0.45)',
+            'gold-sm': '0 0 12px 0px rgba(212, 175, 55, 0.35)',
+            'inner-glow': 'inset 0 1px 1px 0 rgba(255, 255, 255, 0.15)'
+          }
+        }
+      }
+    }
+  </script>
+<!-- Modular CSS Styles -->
+<style data-purpose="base-styling">
+    body {
+      background-color: #08080a;
+      color: #E2E8F0;
+      font-family: 'Inter', sans-serif;
+      overflow-x: hidden;
+      -webkit-tap-highlight-color: transparent;
+    }
+    
+    /* Custom metallic gold gradient */
+    .bg-gradient-gold {
+      background: linear-gradient(135deg, #FDE68A 0%, #D4AF37 50%, #926A08 100%);
+    }
+
+    .text-gradient-gold {
+      background: linear-gradient(135deg, #FFFBEB 0%, #F59E0B 40%, #D4AF37 70%, #B45309 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .border-gold-glow {
+      border: 1px solid rgba(212, 175, 55, 0.35);
+    }
+
+    /* Subdued diagonal pattern for sports jersey feel */
+    .bg-jersey-pattern {
+      background-image: repeating-linear-gradient(
+        -45deg,
+        rgba(255, 255, 255, 0.015),
+        rgba(255, 255, 255, 0.015) 2px,
+        transparent 2px,
+        transparent 8px
+      );
+    }
+  </style>
+<style data-purpose="layout-utilities">
+    /* Glassmorphic card styling */
+    .glass-card {
+      background: rgba(18, 18, 22, 0.78);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      border: 1px solid rgba(212, 175, 55, 0.18);
+    }
+    
+    .glass-card-interactive:active {
+      transform: scale(0.98);
+      transition: transform 0.15s ease-out;
+    }
+
+    /* Hide scrollbars for slick mobile horizontal scrollers */
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+    .no-scrollbar {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+  </style>
+<style id="aiext-wa-page-styles">.aiext-wa-dot-zone{position:absolute!important;top:50%!important;right:10px!important;transform:translateY(-50%)!important;width:0!important;height:0!important;display:flex!important;align-items:center!important;justify-content:flex-end!important;z-index:2147483646!important;direction:ltr!important;overflow:visible!important}.aiext-wa-dot-zone .aiext-wa-dot{position:absolute!important;top:50%!important;right:0!important;left:auto!important;transform:translateY(-50%)!important}.aiext-wa-pill{position:absolute!important;top:50%!important;right:-6px!important;left:auto!important;transform:translateY(-50%)!important;display:none!important;flex-direction:row!important;align-items:center!important;gap:2px!important;padding:1px 0!important;background:#1e293b!important;border:1px solid rgba(148,163,184,0.2)!important;border-radius:10px!important;box-shadow:0 2px 12px rgba(0,0,0,0.25)!important;opacity:0!important;pointer-events:none!important;z-index:2147483647!important;transition:opacity 0.15s ease!important;direction:ltr!important;overflow:visible!important}.aiext-wa-pill.aiext-wa-visible{display:flex!important;opacity:1!important;pointer-events:auto!important}.aiext-wa-pill-brain{width:28px!important;height:28px!important;padding:0!important;margin:0!important;border:none!important;background:transparent!important;cursor:pointer!important;display:flex!important;align-items:center!important;justify-content:center!important;flex-shrink:0!important;border-radius:6px!important}.aiext-wa-pill-brain:hover{background:rgba(255,255,255,0.1)!important}.aiext-wa-pill-brain[data-tooltip]{position:relative!important}.aiext-wa-pill-brain[data-tooltip]::after{display:none!important}.aiext-wa-pill-brain>svg{width:15px!important;height:15px!important;display:block!important}.aiext-wa-pill-x{width:24px!important;height:24px!important;padding:0!important;margin:0!important;border:none!important;background:rgba(255,255,255,0.08)!important;color:#f1f5f9!important;font-size:16px!important;line-height:1!important;font-weight:600!important;cursor:pointer!important;display:flex!important;align-items:center!important;justify-content:center!important;flex-shrink:0!important;border-radius:6px!important}.aiext-wa-pill-x:hover{background:rgba(255,255,255,0.15)!important;color:#fff!important}.aiext-wa-pill-shortcut{font-size:11px!important;color:rgba(248,250,252,0.85)!important;margin-left:2px!important;padding:0 2px!important;pointer-events:none!important}.aiext-wa-dot{position:absolute!important;top:50%!important;right:10px!important;transform:translateY(-50%)!important;width:9px!important;height:9px!important;border-radius:50%!important;background:#10a37f!important;cursor:default!important;z-index:2147483646!important;transition:transform 0.2s ease,box-shadow 0.2s ease,background 0.2s ease!important;border:none!important;padding:0!important;margin:0!important;display:block!important}.aiext-wa-dot:hover{transform:translateY(-50%) scale(1.15)!important;box-shadow:0 0 0 3px rgba(16,163,127,0.35)!important;background:#0d8c6a!important}.aiext-wa-dot:focus{outline:none!important;box-shadow:0 0 0 2px rgba(16,163,127,0.5)!important}.aiext-wa-dot.aiext-wa-hidden{opacity:0!important;pointer-events:none!important}
+.aiext-wa-pill{background:#f7fffb!important;border-color:#cfe9dd!important;box-shadow:0 4px 16px rgba(15,60,42,.14)!important}
+.aiext-wa-pill-brain{background:#e8f9f2!important}
+.aiext-wa-pill-brain:hover{background:#d4f3e4!important}
+.aiext-wa-pill-x{background:#ffffff!important;border:1px solid #dce9e3!important;color:#344054!important}
+.aiext-wa-pill-x:hover{background:#e8f9f2!important;color:#078961!important}
+.aiext-wa-pill-shortcut{color:#475467!important}
+.aiext-wa-dot{background:#08a875!important}
+.aiext-wa-dot:hover{background:#078961!important;box-shadow:0 0 0 3px rgba(8,168,117,.22)!important}
+.aiext-wa-dot:focus{box-shadow:0 0 0 2px rgba(8,168,117,.45)!important}
+</style></head>
+<body class="bg-carbon-950 text-slate-100 antialiased selection:bg-dorado-500 selection:text-black">
+<!-- Mobile Wrapper with standard iOS frame dimensions -->
+<div class="max-w-[430px] mx-auto min-h-screen relative flex flex-col shadow-2xl bg-carbon-950 bg-jersey-pattern border-x border-zinc-900/60">
+<!-- BEGIN: NavigationBar -->
+<header class="sticky top-0 z-50 w-full bg-carbon-950/90 backdrop-blur-md border-b border-dorado-500/20 px-4 py-3">
+<nav aria-label="Navegación principal" class="flex items-center justify-between">
+<!-- Logo and Brand Name -->
+<a aria-label="Ir al inicio de Dorados FC" class="flex items-center gap-2.5 group" href="#hero">
+<div class="relative w-10 h-10 rounded-full p-0.5 bg-gradient-to-tr from-dorado-600 via-yellow-400 to-amber-200 shadow-gold-sm flex-shrink-0">
+<img alt="Escudo oficial de Dorados FC" class="w-full h-full object-contain rounded-full bg-carbon-900" height="40" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAmlg3HdVGkFHevAInK-vTdTDnEmBSMI1BCZJCOPOkXzy9gm0NH7DkUMbxB7c4VHoW8VTQSHULhphdUwyR6_DkcH-23Q4Nz2FG6NOZt2s6ZR7Sk4EM4arnjPvP7MbaUYjU9OtJzee8btWIqf1QV7Wm3mscGfIekuwhb2JIj-XYcywV8jnZ4RLmx8KJ0T7FH0SjlY6Xz3fweueV1DUAVeBnqe74GXaW75c2pGrzCbFo-sGRXoPYEzDw-" width="40">
+</div>
+<div class="flex flex-col">
+<span class="font-impact text-xl tracking-wider text-white group-hover:text-dorado-400 transition-colors uppercase leading-none">
+              DORADOS <span class="text-dorado-400">FC</span>
+</span>
+
+</div>
+</a>
+<!-- Action Pill & Mobile Toggle -->
+<div class="flex items-center gap-2">
+<a aria-label="Seguir a Dorados FC en redes sociales" class="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-gradient-gold text-carbon-950 font-bold text-xs shadow-gold-sm hover:brightness-110 active:scale-95 transition-all" href="#sociales">
+<!-- Instagram Icon -->
+<svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24">
+<path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"></path>
+</svg>
+<span>dorados2026</span>
+</a>
+<!-- Quick Anchor Menu Icon -->
+<a aria-label="Menú rápido" class="p-2 text-zinc-400 hover:text-white" href="#historia">
+<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<path d="M4 6h16M4 12h16m-7 6h7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+</a>
+</div>
+</nav>
+</header>
+<!-- END: NavigationBar -->
+<main class="flex-1">
+<!-- BEGIN: HeroSection -->
+<section class="relative pt-4 pb-8 px-4 overflow-hidden border-b border-zinc-900" data-purpose="club-hero" id="hero">
+<!-- Giant watermark jersey number in background -->
+<span class="absolute -right-8 -top-8 font-impact text-[140px] text-zinc-800/20 select-none pointer-events-none font-bold">10</span>
+<!-- Tag badge -->
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-dorado-500/10 border border-dorado-500/30 text-dorado-400 text-[10px] tracking-widest font-bold uppercase mb-3">
+<span class="w-1.5 h-1.5 rounded-full bg-dorado-400 animate-pulse"></span>
+          FÚTBOL AMATEUR •&nbsp; 2026
+        </div>
+<!-- Primary Club Title -->
+<h1 class="font-impact text-5xl tracking-wide uppercase leading-none mb-1 text-white">
+          DORADOS <span class="text-gradient-gold">FC</span>
+</h1>
+<p class="text-zinc-400 text-sm font-medium italic mb-5">
+          "Más que un equipo, una familia."
+        </p>
+<!-- Visual Hero Showcase: Featured Kit with Crest Badge Overlay -->
+<div class="relative w-full rounded-2xl overflow-hidden glass-card p-2 shadow-gold-glow mb-6 border border-dorado-500/30">
+<div class="relative h-72 w-full rounded-xl overflow-hidden bg-zinc-950 flex items-center justify-center">
+<img alt="Armadura titular dorados negro con oro" class="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAcsR2nYmSMND-EEXhW-ajZQz5mkiE7Dfpo72QdvX8bZXF9WuPy4tp_05_uF65YH5VTxNcjz5khSKUp_UDvtQrwgAOYBPwkRYEN2j_TKgopRuI6nsm1s3Z66D3loS8dXeiA6e7T_eY3oFgtY5lqUiakXfb3lKlCkcFO3fl23flAOcM5M0YjH2aLa4eu57c5BeF5vdgm5s_UX5LwK0A8uW7vngdg3dUvxI4qEtp0-Rmwlrn-imaw4aNz">
+<!-- Bottom Dark Gradient for readability -->
+<div class="absolute inset-0 bg-gradient-to-t from-carbon-950 via-carbon-950/20 to-transparent"></div>
+<!-- Floating Crest on Hero -->
+<div class="absolute bottom-3 left-3 flex items-center gap-3">
+<div class="w-12 h-12 rounded-full p-0.5 bg-gradient-gold shadow-lg">
+<img alt="Badge Dorados" class="w-full h-full rounded-full object-contain bg-black" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAmlg3HdVGkFHevAInK-vTdTDnEmBSMI1BCZJCOPOkXzy9gm0NH7DkUMbxB7c4VHoW8VTQSHULhphdUwyR6_DkcH-23Q4Nz2FG6NOZt2s6ZR7Sk4EM4arnjPvP7MbaUYjU9OtJzee8btWIqf1QV7Wm3mscGfIekuwhb2JIj-XYcywV8jnZ4RLmx8KJ0T7FH0SjlY6Xz3fweueV1DUAVeBnqe74GXaW75c2pGrzCbFo-sGRXoPYEzDw-">
+</div>
+<div>
+<span class="inline-block px-2 py-0.5 rounded bg-zinc-900/90 border border-dorado-500/40 text-[10px] font-bold text-dorado-400 uppercase">
+                  Uniforme de Gala
+                </span>
+<p class="text-xs text-white font-bold leading-tight">Negro Imperial 2026</p>
+</div>
+</div>
+<!-- Authentic Kit Stamp -->
+<div class="absolute top-3 right-3 bg-carbon-950/80 backdrop-blur border border-zinc-700 px-2 py-1 rounded text-[9px] font-bold text-zinc-300">
+              EDICIÓN LIMITADA
+            </div>
+</div>
+</div>
+<!-- Hero Buttons -->
+<div class="grid grid-cols-2 gap-3" data-purpose="hero-actions">
+<a class="w-full py-3 px-4 rounded-xl bg-gradient-gold text-carbon-950 font-bold text-center text-xs tracking-wider uppercase shadow-gold-sm hover:brightness-105 active:scale-95 transition-all flex items-center justify-center gap-1.5" href="#historia">
+<span>Nuestra Historia</span>
+<svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 20 20">
+<path clip-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" fill-rule="evenodd"></path>
+</svg>
+</a>
+<a class="w-full py-3 px-4 rounded-xl glass-card text-dorado-400 border border-dorado-500/40 font-bold text-center text-xs tracking-wider uppercase hover:bg-dorado-500/10 active:scale-95 transition-all flex items-center justify-center gap-1.5" href="#matchday">
+<span>Próximo Partido</span>
+<span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
+</a>
+</div>
+</section>
+<!-- END: HeroSection -->
+<!-- BEGIN: SubcampeonesLogro -->
+<section class="py-6 px-4 bg-gradient-to-b from-carbon-950 to-carbon-900 border-b border-zinc-900" data-purpose="achievement-banner">
+<!-- Trophy Showcase Card -->
+<div class="glass-card rounded-2xl p-5 border border-dorado-500/30 relative overflow-hidden">
+<div class="absolute -right-10 -bottom-10 w-32 h-32 bg-dorado-500/10 rounded-full blur-2xl pointer-events-none"></div>
+<!-- Header badge with medal icon -->
+<div class="flex items-center gap-3 mb-4">
+<div class="w-12 h-12 rounded-xl bg-gradient-to-tr from-zinc-700 via-slate-300 to-zinc-400 p-0.5 shadow-md flex-shrink-0 flex items-center justify-center">
+<div class="w-full h-full bg-zinc-900 rounded-[10px] flex items-center justify-center">
+<!-- Trophy SVG -->
+<svg class="w-6 h-6 text-dorado-400" fill="currentColor" viewBox="0 0 24 24">
+<path d="M19 5h-2V3H7v2H5c-1.1 0-2 .9-2 2v1c0 2.55 1.92 4.63 4.39 4.94.63 1.5 1.98 2.63 3.61 2.96V19H7v2h10v-2h-4v-3.1c1.63-.33 2.98-1.46 3.61-2.96C19.08 12.63 21 10.55 21 8V7c0-1.1-.9-2-2-2zM5 8V7h2v3.82C5.84 10.4 5 9.3 5 8zm14 0c0 1.3-.84 2.4-2 2.82V7h2v1z"></path>
+</svg>
+</div>
+</div>
+<div>
+<span class="inline-block text-[10px] uppercase font-bold tracking-widest text-slate-300 bg-slate-800/80 px-2 py-0.5 rounded border border-slate-600">
+                Torneo Apertura 2026
+              </span>
+<h2 class="font-impact text-2xl uppercase tracking-wide text-white leading-tight mt-0.5">
+                SUBCAMPEONES <span class="text-dorado-400">– Temp 1</span>
+</h2>
+</div>
+</div>
+<p class="text-xs text-zinc-300 leading-relaxed mb-5">
+            En nuestro primer torneo dejamos el alma en cada minuto. Un subcampeonato con sabor a gloria que reafirmó nuestra identidad y nos dejó listos para conquistar la cima.
+          </p>
+<!-- 4 Stats Grid -->
+<div class="grid grid-cols-4 gap-2 pt-3 border-t border-zinc-800/80 text-center">
+<div class="flex flex-col">
+<span class="font-impact text-2xl text-gradient-gold leading-none">2.°</span>
+<span class="text-[9px] uppercase font-bold text-zinc-400 mt-1">Lugar</span>
+</div>
+<div class="flex flex-col border-l border-zinc-800">
+<span class="font-impact text-2xl text-white leading-none">17</span>
+<span class="text-[9px] uppercase font-bold text-zinc-400 mt-1">Partidos</span>
+</div>
+<div class="flex flex-col border-l border-zinc-800">
+<span class="font-impact text-2xl text-emerald-400 leading-none">12</span>
+<span class="text-[9px] uppercase font-bold text-zinc-400 mt-1">Victorias</span>
+</div>
+<div class="flex flex-col border-l border-zinc-800">
+<span class="font-impact text-2xl text-dorado-400 leading-none">77<br></span>
+<span class="text-[9px] uppercase font-bold text-zinc-400 mt-1">Goles AF</span>
+</div>
+</div>
+</div>
+</section>
+<!-- END: SubcampeonesLogro -->
+<!-- BEGIN: NuestraHistoria -->
+<section class="py-8 px-4 border-b border-zinc-900 bg-carbon-950" data-purpose="timeline-history" id="historia">
+<div class="mb-5">
+<span class="text-dorado-500 text-[10px] font-bold tracking-widest uppercase">El Origen del Cardumen</span>
+<h2 class="font-impact text-3xl uppercase tracking-wide text-white">Nuestra Historia</h2>
+<p class="text-xs text-zinc-400 mt-1 leading-relaxed">
+            Dorados nació como un equipo de amigos unidos por la pasión al fútbol. Desde el inicio demostramos talento, compromiso y unión. Hoy seguimos avanzando, aprendiendo y mejorando partido tras partido.
+          </p>
+</div>
+<!-- Vertical Timeline with 3 Milestones -->
+<div class="relative pl-6 space-y-6 before:content-[''] before:absolute before:left-2.5 before:top-2 before:bottom-2 before:w-0.5 before:bg-gradient-to-b before:from-dorado-500 before:via-yellow-600 before:to-zinc-800">
+<!-- Hito 1 -->
+<article class="relative" data-purpose="milestone-1">
+<div class="absolute -left-6 top-1 w-5 h-5 rounded-full bg-carbon-950 border-2 border-dorado-400 flex items-center justify-center">
+<div class="w-1.5 h-1.5 rounded-full bg-dorado-400"></div>
+</div>
+<div class="glass-card p-3.5 rounded-xl">
+<div class="flex items-center justify-between mb-1">
+<span class="text-[10px] font-bold text-dorado-400 uppercase tracking-wider">Abril 2026</span>
+<span class="text-[9px] px-1.5 py-0.5 rounded bg-zinc-800 text-zinc-400 font-semibold">Fundación</span>
+</div>
+<h3 class="font-impact text-lg uppercase text-white tracking-wide">Nace Dorados</h3>
+<p class="text-xs text-zinc-300 mt-1 leading-normal">
+                Fundado por Javo y Manu por puro amor al balón. Convocatoria relámpago con amigos del barrio y compañeros de cancha listos para competir.
+              </p>
+</div>
+</article>
+<!-- Hito 2 -->
+<article class="relative" data-purpose="milestone-2">
+<div class="absolute -left-6 top-1 w-5 h-5 rounded-full bg-carbon-950 border-2 border-dorado-400 flex items-center justify-center">
+<div class="w-1.5 h-1.5 rounded-full bg-dorado-400"></div>
+</div>
+<div class="glass-card p-3.5 rounded-xl border-dorado-500/40 bg-zinc-900/60">
+<div class="flex items-center justify-between mb-1">
+<span class="text-[10px] font-bold text-dorado-400 uppercase tracking-wider">Temporada 1</span>
+<span class="text-[9px] px-1.5 py-0.5 rounded bg-amber-500/20 text-dorado-300 font-bold border border-dorado-500/30">Subcampeones</span>
+</div>
+<h3 class="font-impact text-lg uppercase text-white tracking-wide">La Gran Final Debut</h3>
+<p class="text-xs text-zinc-300 mt-1 leading-normal">
+                Llegamos a la Gran Final en nuestro primer torneo. Garra pura, entrega y unión para dar el primer aviso a toda la liga.
+              </p>
+</div>
+</article>
+<!-- Hito 3 -->
+<article class="relative" data-purpose="milestone-3">
+<div class="absolute -left-6 top-1 w-5 h-5 rounded-full bg-carbon-950 border-2 border-zinc-700 flex items-center justify-center">
+<div class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-ping"></div>
+</div>
+<div class="glass-card p-3.5 rounded-xl">
+<div class="flex items-center justify-between mb-1">
+<span class="text-[10px] font-bold text-emerald-400 uppercase tracking-wider">Temporada 2</span>
+<span class="text-[9px] px-1.5 py-0.5 rounded bg-emerald-950/60 text-emerald-400 font-semibold border border-emerald-800">En curso</span>
+</div>
+<h3 class="font-impact text-lg uppercase text-white tracking-wide">Nuevos Retos, Misma Mente</h3>
+<p class="text-xs text-zinc-300 mt-1 leading-normal">
+                Disputando cada jornada con la meta clara del campeonato absoluto. Con nueva piel y la misma lealtad inquebrantable.
+              </p>
+</div>
+</article>
+</div>
+</section>
+<!-- END: NuestraHistoria -->
+<!-- BEGIN: FundadoresSection -->
+<section class="py-8 px-4 bg-carbon-900 border-b border-zinc-900" data-purpose="founders-spotlight">
+<div class="text-center mb-6">
+<span class="text-dorado-500 text-[10px] font-bold tracking-widest uppercase">Liderazgo &amp; Alma</span>
+<h2 class="font-impact text-3xl uppercase tracking-wide text-white">Nuestros Fundadores</h2>
+<p class="text-xs text-zinc-400 max-w-xs mx-auto mt-1">
+            Los cerebros detrás del proyecto y los líderes que dejan la garganta en el terreno de juego.
+          </p>
+</div>
+<div class="grid grid-cols-2 gap-3">
+<!-- Founder 1: JAVO -->
+<div class="glass-card rounded-2xl p-4 flex flex-col justify-between border-dorado-500/30 relative overflow-hidden group">
+<div class="absolute -right-4 -top-4 font-impact text-6xl text-white/5 font-black">#10</div>
+<div>
+<div class="w-10 h-10 rounded-full bg-gradient-gold text-carbon-950 font-impact text-xl flex items-center justify-center font-bold mb-3 shadow-gold-sm">
+                J
+              </div>
+<span class="text-[9px] uppercase tracking-wider font-extrabold text-dorado-400 block">Co-Fundador &amp; DC</span>
+<h3 class="font-impact text-2xl uppercase text-white tracking-wide leading-tight">JAVO</h3>
+<p class="text-[11px] text-zinc-400 font-medium mb-3">Delantero Titular</p>
+</div>
+<blockquote class="text-[11px] text-zinc-300 italic border-l-2 border-dorado-500 pl-2 leading-relaxed bg-black/30 p-2 rounded">
+              "El fútbol nos unió como amigos, Dorados nos convirtió en hermanos."
+            </blockquote>
+</div>
+<!-- Founder 2: MANU -->
+<div class="glass-card rounded-2xl p-4 flex flex-col justify-between border-dorado-500/30 relative overflow-hidden group">
+<div class="absolute -right-4 -top-4 font-impact text-6xl text-white/5 font-black">#9</div>
+<div>
+<div class="w-10 h-10 rounded-full bg-gradient-gold text-carbon-950 font-impact text-xl flex items-center justify-center font-bold mb-3 shadow-gold-sm">
+                M
+              </div>
+<span class="text-[9px] uppercase tracking-wider font-extrabold text-dorado-400 block">Co-Fundador &amp; po</span>
+<h3 class="font-impact text-2xl uppercase text-white tracking-wide leading-tight">MANU</h3>
+<p class="text-[11px] text-zinc-400 font-medium mb-3">Portero indiscutible</p>
+</div>
+<blockquote class="text-[11px] text-zinc-300 italic border-l-2 border-dorado-500 pl-2 leading-relaxed bg-black/30 p-2 rounded">
+              "Cada partido se juega con el corazón. Esta camiseta se defiende a muerte."
+            </blockquote>
+</div>
+</div>
+</section>
+<!-- END: FundadoresSection -->
+<!-- BEGIN: ArmaduraYPlantilla -->
+<section class="py-8 px-4 bg-carbon-950 border-b border-zinc-900" data-purpose="official-kits-and-roster">
+<div class="mb-5">
+<span class="text-dorado-500 text-[10px] font-bold tracking-widest uppercase">Indumentaria Oficial</span>
+<h2 class="font-impact text-3xl uppercase tracking-wide text-white">Nuestra Armadura</h2>
+<p class="text-xs text-zinc-400 mt-1">Diseñada con tecnología deportiva de alto impacto.</p>
+</div>
+<!-- Horizontal Kit Selector Cards -->
+<div class="flex gap-3 overflow-x-auto no-scrollbar pb-3 snap-x">
+<!-- Kit 1: Titular Negra -->
+<div class="snap-center min-w-[240px] glass-card rounded-2xl p-3 border-dorado-500/40 flex-shrink-0">
+<div class="h-56 rounded-xl overflow-hidden bg-black relative mb-2">
+<img alt="Equipación de local Dorados FC Negra y Dorada" class="w-full h-full object-cover object-top" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAcsR2nYmSMND-EEXhW-ajZQz5mkiE7Dfpo72QdvX8bZXF9WuPy4tp_05_uF65YH5VTxNcjz5khSKUp_UDvtQrwgAOYBPwkRYEN2j_TKgopRuI6nsm1s3Z66D3loS8dXeiA6e7T_eY3oFgtY5lqUiakXfb3lKlCkcFO3fl23flAOcM5M0YjH2aLa4eu57c5BeF5vdgm5s_UX5LwK0A8uW7vngdg3dUvxI4qEtp0-Rmwlrn-imaw4aNz">
+<span class="absolute top-2 left-2 bg-black/80 px-2 py-0.5 rounded text-[9px] font-bold text-dorado-400 border border-dorado-500/30">
+                LOCAL
+              </span>
+</div>
+<div class="flex items-center justify-between">
+<div>
+<h4 class="font-impact text-base text-white tracking-wide">Black &amp; Gold Storm</h4>
+<p class="text-[10px] text-zinc-400">Patrón azteca y número 10</p>
+</div>
+<span class="text-xs font-bold text-dorado-400">2026/27</span>
+</div>
+</div>
+<!-- Kit 2: Alternativa Blanca Frente -->
+<div class="snap-center min-w-[240px] glass-card rounded-2xl p-3 border-zinc-800 flex-shrink-0">
+<div class="h-56 rounded-xl overflow-hidden bg-zinc-900 relative mb-2">
+<img alt="Equipación visitante blanca con detalles en oro frente" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAQrBCPI8XPWVrDDdrjjqgAfcS90bcUBpsx3TGkrQ1vBvrE5s3wAIHBbeLNoDtxRuRWorY2kiCWczx-wvr1-egdvy0tmgjmtljmcWAZDnndH06sCV0AgzPasJp-C1tcBnI_7t7xRm8HSvns4Y5WCpLzconWU13g8_UmuR9H91Gxe65_vspiaJlZlNpQXeu6-bfuDxYEWvDZr1ukoKhhQ_X4-UY_0sxjp2HiHMQImwtmzbL57IzfaDyU">
+<span class="absolute top-2 left-2 bg-zinc-900/90 px-2 py-0.5 rounded text-[9px] font-bold text-zinc-200 border border-zinc-700">
+                VISITA • FRENTE
+              </span>
+</div>
+<div class="flex items-center justify-between">
+<div>
+<h4 class="font-impact text-base text-white tracking-wide">Blanco Perla Solar</h4>
+<p class="text-[10px] text-zinc-400">Detalle dorado CT y Prudence</p>
+</div>
+<span class="text-xs font-bold text-dorado-400">2026/27</span>
+</div>
+</div>
+<!-- Kit 3: Alternativa Blanca Dorso -->
+<div class="snap-center min-w-[240px] glass-card rounded-2xl p-3 border-zinc-800 flex-shrink-0">
+<div class="h-56 rounded-xl overflow-hidden bg-zinc-900 relative mb-2">
+<img alt="Equipación visitante blanca con número 10 en la espalda" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDeSzi5sc6zwi3eV-Evf-UV5KImkLvSlgPiC0xa1t3eAgeGLXhqyW8enRk3gmukxgfCwNlFz2saZ_BTiAUEu0Jim0ESHSdVZD_ZDEZsj_HmcpIrpVz8gi6R6b_DIEpqGh1Bn8LwumZhJ0w89SPx6Io9PLS0W_Wa5pLHZcc_iOeVDG6eMrgTLone9CvyJnQ2IBHCncNdymR0frMGsvj2xidSiQoYoChpik3vRXMU66VyBvqbh8rLKmLk">
+<span class="absolute top-2 left-2 bg-zinc-900/90 px-2 py-0.5 rounded text-[9px] font-bold text-zinc-200 border border-zinc-700">
+                VISITA • DORSO
+              </span>
+</div>
+<div class="flex items-center justify-between">
+<div>
+<h4 class="font-impact text-base text-white tracking-wide">Dorsal 10 Dorados</h4>
+<p class="text-[10px] text-zinc-400">Tipografía bold con sponsor Gallery</p>
+</div>
+<span class="text-xs font-bold text-dorado-400">2026/27</span>
+</div>
+</div>
+</div>
+<!-- Tarjetas Coleccionables de Jugadores (Estilo FUT) -->
+<div class="mt-8">
+<div class="flex items-center justify-between mb-4">
+<h3 class="font-impact text-xl uppercase tracking-wide text-white">Cartas de Plantilla</h3>
+<span class="text-[10px] uppercase font-bold text-dorado-400">Temporada Activa</span>
+</div>
+<div class="grid grid-cols-2 gap-3">
+<!-- Card 1: JAVO -->
+<div class="glass-card rounded-xl p-3 border-dorado-500/40 relative overflow-hidden">
+<div class="flex justify-between items-start">
+<span class="font-impact text-3xl text-dorado-400 leading-none">18</span>
+<span class="text-[9px] font-black px-1.5 py-0.5 rounded bg-dorado-500/20 text-dorado-300">CAP</span>
+</div>
+<div class="my-2">
+<h5 class="font-impact text-lg uppercase text-white tracking-wide leading-none">JAVO</h5>
+<p class="text-[10px] text-zinc-400">Delantero Central</p>
+</div>
+<div class="space-y-1 text-[9px] border-t border-zinc-800 pt-2 font-mono">
+<div class="flex justify-between"><span class="text-zinc-500">VISIÓN</span><span class="text-white font-bold">95</span></div>
+<div class="flex justify-between"><span class="text-zinc-500">LIDERAZGO</span><span class="text-dorado-400 font-bold">98</span></div>
+<div class="flex justify-between"><span class="text-zinc-500">GARRA</span><span class="text-emerald-400 font-bold">99</span></div>
+</div>
+</div>
+<!-- Card 2: MANU -->
+<div class="glass-card rounded-xl p-3 border-dorado-500/40 relative overflow-hidden">
+<div class="flex justify-between items-start">
+<span class="font-impact text-3xl text-dorado-400 leading-none">10</span>
+<span class="text-[9px] font-black px-1.5 py-0.5 rounded bg-zinc-800 text-zinc-300">MC</span>
+</div>
+<div class="my-2">
+<h5 class="font-impact text-lg uppercase text-white tracking-wide leading-none">rey</h5>
+<p class="text-[10px] text-zinc-400">MC</p>
+</div>
+<div class="space-y-1 text-[9px] border-t border-zinc-800 pt-2 font-mono">
+<div class="flex justify-between"><span class="text-zinc-500">TIRO</span><span class="text-white font-bold">94</span></div>
+<div class="flex justify-between"><span class="text-zinc-500">ESTRATEGIA</span><span class="text-dorado-400 font-bold">96</span></div>
+<div class="flex justify-between"><span class="text-zinc-500">PASIÓN</span><span class="text-emerald-400 font-bold">100</span></div>
+</div>
+</div>
+<!-- Card 3: ALEX -->
+<div class="glass-card rounded-xl p-3 border-zinc-800 relative overflow-hidden">
+<div class="flex justify-between items-start">
+<span class="font-impact text-3xl text-zinc-400 leading-none">1</span>
+<span class="text-[9px] font-black px-1.5 py-0.5 rounded bg-zinc-800 text-zinc-400">POR</span>
+</div>
+<div class="my-2">
+<h5 class="font-impact text-lg uppercase text-white tracking-wide leading-none">Manu</h5>
+<p class="text-[10px] text-zinc-400">El Muro Dorado</p>
+</div>
+<div class="space-y-1 text-[9px] border-t border-zinc-800 pt-2 font-mono">
+<div class="flex justify-between"><span class="text-zinc-500">REFLEJOS</span><span class="text-white font-bold">92</span></div>
+<div class="flex justify-between"><span class="text-zinc-500">SALIDAS</span><span class="text-dorado-400 font-bold">89</span></div>
+<div class="flex justify-between"><span class="text-zinc-500">SEGURIDAD</span><span class="text-emerald-400 font-bold">94</span></div>
+</div>
+</div>
+<!-- Card 4: CARLOS -->
+<div class="glass-card rounded-xl p-3 border-zinc-800 relative overflow-hidden">
+<div class="flex justify-between items-start">
+<span class="font-impact text-3xl text-zinc-400 leading-none">12</span>
+<span class="text-[9px] font-black px-1.5 py-0.5 rounded bg-zinc-800 text-zinc-400">MC</span>
+</div>
+<div class="my-2">
+<h5 class="font-impact text-lg uppercase text-white tracking-wide leading-none">Ethan</h5>
+<p class="text-[10px] text-zinc-400">Mediocentro</p>
+</div>
+<div class="space-y-1 text-[9px] border-t border-zinc-800 pt-2 font-mono">
+<div class="flex justify-between"><span class="text-zinc-500">FUERZA</span><span class="text-white font-bold">96</span></div>
+<div class="flex justify-between"><span class="text-zinc-500">CORTE</span><span class="text-dorado-400 font-bold">91</span></div>
+<div class="flex justify-between"><span class="text-zinc-500">ENTREGA</span><span class="text-emerald-400 font-bold">97</span></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: ArmaduraYPlantilla -->
+<!-- BEGIN: MatchdaySection -->
+<section class="py-8 px-4 bg-carbon-900 border-b border-zinc-900" data-purpose="current-fixtures" id="matchday">
+<div class="flex items-center justify-between mb-4">
+<div>
+<span class="text-dorado-500 text-[10px] font-bold tracking-widest uppercase">Matchday</span>
+<h2 class="font-impact text-3xl uppercase tracking-wide text-white">Temporada Actual</h2>
+</div>
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 text-[10px] font-bold">
+<span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
+            Jornada 18<br></span>
+</div>
+<!-- Next Match Card -->
+<div class="glass-card rounded-2xl p-5 border-dorado-500/40 shadow-gold-sm relative overflow-hidden mb-6">
+<div class="text-center mb-3">
+<span class="text-[10px] font-bold text-zinc-400 uppercase tracking-widest bg-zinc-800/80 px-2.5 py-1 rounded">
+              PRÓXIMO PARTIDO • LIGA Boulevares</span>
+</div>
+<div class="flex items-center justify-between my-4">
+<!-- Local: DORADOS FC -->
+<div class="flex flex-col items-center text-center w-5/12">
+<div class="w-14 h-14 rounded-full p-0.5 bg-gradient-gold shadow-md mb-2">
+<img alt="Escudo Dorados" class="w-full h-full rounded-full object-contain bg-black" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAmlg3HdVGkFHevAInK-vTdTDnEmBSMI1BCZJCOPOkXzy9gm0NH7DkUMbxB7c4VHoW8VTQSHULhphdUwyR6_DkcH-23Q4Nz2FG6NOZt2s6ZR7Sk4EM4arnjPvP7MbaUYjU9OtJzee8btWIqf1QV7Wm3mscGfIekuwhb2JIj-XYcywV8jnZ4RLmx8KJ0T7FH0SjlY6Xz3fweueV1DUAVeBnqe74GXaW75c2pGrzCbFo-sGRXoPYEzDw-">
+</div>
+<h4 class="font-impact text-base uppercase text-white leading-tight">DORADOS FC</h4>
+
+</div>
+<!-- VS Badge -->
+<div class="flex flex-col items-center w-2/12">
+<span class="font-impact text-2xl text-gradient-gold tracking-wider font-bold">VS</span>
+<span class="text-[10px] text-zinc-500 font-mono">12:00</span>
+</div>
+<!-- Rival: HALCONES FC -->
+<div class="flex flex-col items-center text-center w-5/12">
+<div class="w-14 h-14 rounded-full bg-zinc-800 border-2 border-zinc-700 flex items-center justify-center mb-2 shadow-inner">
+<!-- Generic Rival Hawk/Bird SVG -->
+<svg class="w-8 h-8 text-zinc-400" fill="currentColor" viewBox="0 0 24 24">
+<path d="M12 2L9 9l-7 2 5 5-1 7 6-3 6 3-1-7 5-5-7-2-3-7z"></path>
+</svg>
+</div>
+<h4 class="font-impact text-base uppercase text-zinc-300 leading-tight">Culichi powers</h4>
+
+</div>
+</div>
+<!-- Match Metadata -->
+<div class="border-t border-zinc-800/80 pt-3 flex items-center justify-around text-center text-xs text-zinc-300 font-medium">
+<div class="flex items-center gap-1.5">
+<svg class="w-4 h-4 text-dorado-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<path d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+<span>Domingo 12:00 hrs</span>
+</div>
+<div class="flex items-center gap-1.5">
+<svg class="w-4 h-4 text-dorado-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+<span>Cancha Boulevares</span>
+</div>
+</div>
+</div>
+<!-- Recent Results Pills Strip -->
+<div>
+<span class="text-[10px] font-bold uppercase tracking-wider text-zinc-400 block mb-2">Últimos Resultados</span>
+<div class="grid grid-cols-4 gap-2">
+<div class="glass-card rounded-xl p-2 text-center border-l-2 border-emerald-500">
+<span class="text-[9px] font-extrabold text-emerald-400 block">VICTORIA</span>
+<span class="font-impact text-lg text-white">4 - 1</span>
+
+</div>
+<div class="glass-card rounded-xl p-2 text-center border-l-2 border-emerald-500">
+<span class="text-[9px] font-extrabold text-emerald-400 block">VICTORIA</span>
+<span class="font-impact text-lg text-white">6 - 5</span>
+
+</div>
+
+<div class="glass-card rounded-xl p-2 text-center border-l-2 border-emerald-500">
+<span class="text-[9px] font-extrabold text-emerald-400 block">VICTORIA</span>
+<span class="font-impact text-lg text-white">5-0</span>
+
+</div>
+</div>
+</div>
+</section>
+<!-- END: MatchdaySection -->
+<!-- BEGIN: ValoresADNDorado -->
+<section class="py-8 px-4 bg-carbon-950 border-b border-zinc-900" data-purpose="club-values">
+<div class="text-center mb-6">
+<span class="text-dorado-500 text-[10px] font-bold tracking-widest uppercase">Mística &amp; Filosofía</span>
+<h2 class="font-impact text-3xl uppercase tracking-wide text-white">ADN DORADO</h2>
+<p class="text-xs text-zinc-400">Los 3 pilares que no se negocian jamás.</p>
+</div>
+<div class="space-y-3">
+<!-- Valor 1: UNIÓN -->
+<div class="glass-card rounded-xl p-4 flex items-center gap-4 border border-zinc-800/80">
+<div class="w-12 h-12 rounded-xl bg-dorado-500/10 border border-dorado-500/30 flex items-center justify-center flex-shrink-0 text-dorado-400">
+<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<path d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+</div>
+<div>
+<h3 class="font-impact text-lg uppercase tracking-wide text-white">UNIÓN</h3>
+<p class="text-xs text-zinc-300">En la cancha somos once guerreros, fuera de ella somos una sola voz y una sola familia.</p>
+</div>
+</div>
+<!-- Valor 2: COMPROMISO -->
+<div class="glass-card rounded-xl p-4 flex items-center gap-4 border border-zinc-800/80">
+<div class="w-12 h-12 rounded-xl bg-dorado-500/10 border border-dorado-500/30 flex items-center justify-center flex-shrink-0 text-dorado-400">
+<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+</div>
+<div>
+<h3 class="font-impact text-lg uppercase tracking-wide text-white">COMPROMISO</h3>
+<p class="text-xs text-zinc-300">Cero excusas: puntualidad, sudor constante y lealtad incondicional a los colores.</p>
+</div>
+</div>
+<!-- Valor 3: PASIÓN -->
+<div class="glass-card rounded-xl p-4 flex items-center gap-4 border border-zinc-800/80">
+<div class="w-12 h-12 rounded-xl bg-dorado-500/10 border border-dorado-500/30 flex items-center justify-center flex-shrink-0 text-dorado-400">
+<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<path d="M13 10V3L4 14h7v7l9-11h-7z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+</div>
+<div>
+<h3 class="font-impact text-lg uppercase tracking-wide text-white">PASIÓN</h3>
+<p class="text-xs text-zinc-300">Fútbol de barrio auténtico con orgullo y seriedad profesional de principio a fin.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- END: ValoresADNDorado -->
+<!-- BEGIN: GaleriaDeLaBanda -->
+<section class="py-8 px-4 bg-carbon-900 border-b border-zinc-900" data-purpose="club-gallery">
+<div class="flex items-center justify-between mb-4">
+<div>
+<span class="text-dorado-500 text-[10px] font-bold tracking-widest uppercase">Galería Oficial</span>
+<h2 class="font-impact text-3xl uppercase tracking-wide text-white">La Banda Dorada</h2>
+</div>
+
+</div>
+<!-- Dynamic Photo Mosaic -->
+<div class="grid grid-cols-2 gap-2.5">
+<!-- Photo 1: Embalaje oficial de playeras -->
+<div class="col-span-2 relative rounded-2xl overflow-hidden glass-card border-dorado-500/30 group">
+<img alt="Lote oficial de camisetas empacadas de Dorados FC con escudo bordado" class="w-full h-52 object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBDGKTfA2kae8E6JLu90eiaLyJId0EaIuQ5rbiHA399-d7dhwll-oklT5f-ft-n2CwK5V-Jm0KwGAXyiaNv33J44RHHEGDSzTwE00PAUgExZ6Ijk2NsQF6pwPsm2hcuJw3ZXGQhhzAX8gmChtfxI-nF4YDP2Qqpoz6R8Eq_uJVmBCAFEStXgXcSEo_Ykd6cewL1o7nvmMt6e0wACDjavID4Dw_vgXINhYZwu7Vl6aeWMdxzmQGxRmWZ">
+<div class="absolute inset-0 bg-gradient-to-t from-carbon-950 via-transparent to-transparent"></div>
+<div class="absolute bottom-2.5 left-3">
+<span class="bg-black/80 text-dorado-400 text-[9px] font-bold px-2 py-0.5 rounded border border-dorado-500/30">LOTE OFICIAL</span>
+<p class="text-xs text-white font-bold mt-0.5">Llegada de la nueva piel del cardumen</p>
+</div>
+</div>
+<!-- Photo 2: Detalle Camiseta Titular -->
+<div class="relative rounded-xl overflow-hidden glass-card h-44 group">
+<img alt="Detalle playera de local con el número 10" class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAcsR2nYmSMND-EEXhW-ajZQz5mkiE7Dfpo72QdvX8bZXF9WuPy4tp_05_uF65YH5VTxNcjz5khSKUp_UDvtQrwgAOYBPwkRYEN2j_TKgopRuI6nsm1s3Z66D3loS8dXeiA6e7T_eY3oFgtY5lqUiakXfb3lKlCkcFO3fl23flAOcM5M0YjH2aLa4eu57c5BeF5vdgm5s_UX5LwK0A8uW7vngdg3dUvxI4qEtp0-Rmwlrn-imaw4aNz">
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
+<span class="absolute bottom-2 left-2 text-[10px] font-bold text-white uppercase">Edición Negra</span>
+</div>
+<!-- Photo 3: Detalle Camiseta Blanca Visitante -->
+<div class="relative rounded-xl overflow-hidden glass-card h-44 group">
+<img alt="Detalle playera alternativa blanca y dorada" class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAQrBCPI8XPWVrDDdrjjqgAfcS90bcUBpsx3TGkrQ1vBvrE5s3wAIHBbeLNoDtxRuRWorY2kiCWczx-wvr1-egdvy0tmgjmtljmcWAZDnndH06sCV0AgzPasJp-C1tcBnI_7t7xRm8HSvns4Y5WCpLzconWU13g8_UmuR9H91Gxe65_vspiaJlZlNpQXeu6-bfuDxYEWvDZr1ukoKhhQ_X4-UY_0sxjp2HiHMQImwtmzbL57IzfaDyU">
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
+<span class="absolute bottom-2 left-2 text-[10px] font-bold text-white uppercase">Edición Blanca</span>
+</div>
+</div>
+</section>
+<!-- END: GaleriaDeLaBanda -->
+<!-- BEGIN: CallToAction -->
+<section class="py-10 px-4 bg-carbon-950" data-purpose="social-cta-banner" id="sociales">
+<div class="rounded-3xl p-6 bg-gradient-gold text-carbon-950 text-center shadow-gold-glow relative overflow-hidden">
+<!-- Subtle background circle decor -->
+<div class="absolute -right-8 -bottom-8 w-32 h-32 bg-yellow-200/40 rounded-full blur-xl pointer-events-none"></div>
+<div class="w-14 h-14 rounded-full bg-carbon-950 p-1 mx-auto mb-3 shadow-md flex items-center justify-center">
+<img alt="Escudo Dorados Sinaloa" class="w-full h-full rounded-full object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAmlg3HdVGkFHevAInK-vTdTDnEmBSMI1BCZJCOPOkXzy9gm0NH7DkUMbxB7c4VHoW8VTQSHULhphdUwyR6_DkcH-23Q4Nz2FG6NOZt2s6ZR7Sk4EM4arnjPvP7MbaUYjU9OtJzee8btWIqf1QV7Wm3mscGfIekuwhb2JIj-XYcywV8jnZ4RLmx8KJ0T7FH0SjlY6Xz3fweueV1DUAVeBnqe74GXaW75c2pGrzCbFo-sGRXoPYEzDw-">
+</div>
+<span class="text-[11px] uppercase font-black tracking-widest text-carbon-950/80 block mb-1">
+            EL VIAJE RECIÉN EMPIEZA
+          </span>
+<h2 class="font-impact text-3xl uppercase tracking-wide leading-tight mb-2 text-carbon-950">
+            Nuestra historia apenas comienza y vamos por mucho más 🏆
+          </h2>
+<p class="text-xs text-carbon-900 font-semibold mb-6 max-w-xs mx-auto">
+            Súmate a la comunidad dorada, sigue los resúmenes en video, fotos de los partidos y la previa de cada fin de semana.
+          </p>
+<div class="flex flex-col gap-2.5">
+<!-- Instagram Link -->
+<a class="w-full py-3 px-4 rounded-xl bg-carbon-950 text-white font-bold text-xs uppercase tracking-wider shadow hover:bg-black active:scale-95 transition-all flex items-center justify-center gap-2" href="https://instagram.com" rel="noopener noreferrer" target="_blank">
+<svg class="w-4 h-4 text-dorado-400 fill-current" viewBox="0 0 24 24">
+<path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"></path>
+</svg>
+<span>dorados2026</span>
+</a>
+<!-- TikTok Link -->
+<a class="w-full py-3 px-4 rounded-xl bg-carbon-900/90 text-white font-bold text-xs uppercase tracking-wider border border-carbon-950/20 hover:bg-carbon-950 active:scale-95 transition-all flex items-center justify-center gap-2" href="https://tiktok.com" rel="noopener noreferrer" target="_blank">
+<svg class="w-4 h-4 fill-current text-white" viewBox="0 0 24 24">
+<path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.97v7.55c0 1.79-.47 3.6-1.54 5.04-1.53 2.05-4.06 3.29-6.61 3.32-2.14.03-4.29-.68-5.88-2.07-1.85-1.62-2.88-4.01-2.73-6.49.15-2.61 1.63-5.01 3.84-6.32 1.55-.92 3.36-1.37 5.16-1.28v4.06c-.95-.06-1.92.14-2.76.62-.89.51-1.55 1.39-1.74 2.39-.24 1.16.14 2.41.97 3.25.86.87 2.11 1.25 3.32 1.02 1.07-.19 2.03-.92 2.47-1.92.27-.6.38-1.27.38-1.94V.02z"></path>
+</svg>
+<span>TikTok @Dorados_fut7</span>
+</a>
+</div>
+</div>
+</section>
+<!-- END: CallToAction -->
+</main>
+<!-- BEGIN: MainFooter -->
+<footer class="bg-carbon-950 border-t border-zinc-900 pt-8 pb-12 px-6" data-purpose="club-footer">
+<div class="flex flex-col items-center text-center">
+<!-- Logo -->
+<div class="w-14 h-14 rounded-full p-0.5 bg-gradient-gold shadow-gold-sm mb-3">
+<img alt="Dorados FC Crest" class="w-full h-full rounded-full object-contain bg-black" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAmlg3HdVGkFHevAInK-vTdTDnEmBSMI1BCZJCOPOkXzy9gm0NH7DkUMbxB7c4VHoW8VTQSHULhphdUwyR6_DkcH-23Q4Nz2FG6NOZt2s6ZR7Sk4EM4arnjPvP7MbaUYjU9OtJzee8btWIqf1QV7Wm3mscGfIekuwhb2JIj-XYcywV8jnZ4RLmx8KJ0T7FH0SjlY6Xz3fweueV1DUAVeBnqe74GXaW75c2pGrzCbFo-sGRXoPYEzDw-">
+</div>
+<h3 class="font-impact text-2xl uppercase tracking-wider text-white">DORADOS FC</h3>
+<p class="text-xs text-dorado-400 font-medium italic mt-0.5">
+          "Más que un equipo, una familia"
+        </p>
+<!-- Quick Navigation Links -->
+<nav aria-label="Enlaces de pie de página" class="flex flex-wrap justify-center gap-4 my-5 text-xs text-zinc-400 font-semibold">
+<a class="hover:text-dorado-400 transition-colors" href="#hero">Inicio</a>
+<a class="hover:text-dorado-400 transition-colors" href="#historia">Historia</a>
+<a class="hover:text-dorado-400 transition-colors" href="#matchday">Partidos</a>
+<a class="hover:text-dorado-400 transition-colors" href="#sociales">Contacto Amistosos</a>
+</nav>
+<!-- Match & Booking Note -->
+<div class="p-3 rounded-xl bg-zinc-900/60 border border-zinc-800 text-[11px] text-zinc-400 max-w-xs mb-6">
+
+
+</div>
+<!-- Copyright -->
+<p class="text-[10px] text-zinc-600 tracking-wide uppercase">
+          2026 dorados esmeralda</p>
+</div>
+</footer>
+<!-- END: MainFooter -->
+</div>
+
+
+<div id="aiext-wa-root"></div></body></html>
